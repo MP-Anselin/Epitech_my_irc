@@ -1,0 +1,15 @@
+/*
+** EPITECH PROJECT, 2018
+** PSU
+** File description:
+** Created by MP,
+*/
+
+#include "server.h"
+
+void command_user(t_machine *machine, t_machine *client, t_cmd *cmd)
+{
+	(void)machine;
+	(void)cmd;
+	client->text = xstrdup("TEST\r\n");
+}
